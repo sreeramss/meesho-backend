@@ -13,7 +13,6 @@ const app=express();
 const PORT= process.env.PORT || 8000;
 
 const corsOptions = {
-    origin:'https://preeminent-cendol-2ba068.netlify.app', // Allow only your frontend origin
     credentials: true, // Allow credentials (cookies)
 };
 //middleware
