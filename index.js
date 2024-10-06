@@ -13,7 +13,7 @@ const app=express();
 const PORT= process.env.PORT || 8000;
 
 const corsOptions = {
-    origin:process.env.CORS_ORIGIN, // Allow only your frontend origin
+    origin:'http://localhost:5173', // Allow only your frontend origin
     credentials: true, // Allow credentials (cookies)
 };
 //middleware
